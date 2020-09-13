@@ -1,0 +1,29 @@
+.recipe {
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px lightgray;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  min-width: 45%;
+}
+.image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.title {
+  font-size: 17px;
+}
+.calories {
+  font-size: small;
+  color: green;
+}
+.ingredient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
